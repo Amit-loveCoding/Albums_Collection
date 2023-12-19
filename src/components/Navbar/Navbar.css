@@ -1,0 +1,44 @@
+.navbar
+{
+    width: 100%;
+    padding: 20px 10px;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navbar h2
+{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 2px;
+}
+
+.brand-first-half
+{
+    margin-right: 2px;
+}
+
+.brand-last-half
+{
+    background-color: skyblue;
+    color: darkblue;
+    padding: 15px;
+}
+
+.navbar button
+{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);;
+    color: White;
+    font-size: large;
+    border:5px solid blueviolet ;
+    padding:5px 10px;
+    cursor: pointer;
+}
+
+.navbar button:hover
+{
+  background-color: #FD0102;
+  color: white;
+}

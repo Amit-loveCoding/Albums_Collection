@@ -1,0 +1,21 @@
+.addalbum-container
+{
+    color: white;
+    padding-top: 73px;
+    width: 350px;
+    margin: auto;
+}
+
+.addalbum-form
+{
+    padding: 10px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin-top: auto;
+}
+
+.addalbum-form button
+{
+    background-color: green;
+    padding:10px 20px;
+    color: white;
+}

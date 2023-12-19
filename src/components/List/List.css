@@ -1,0 +1,65 @@
+.list
+{
+    width: 310px;
+    height: 200px;
+    background: linear-gradient(to right, #000046, #1cb5e0);
+    margin-bottom: 5px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list h3
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.list:hover
+{
+    transform:scale(1.2) ;
+}
+
+.button-group
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-btn
+{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    color: white;
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.update-btn:hover
+{
+  background-color: white;
+  color: black;
+  transform: scale(1.2);
+  font-size: bolder;
+}
+
+.delete-btn
+{
+    cursor: pointer;
+    border: 0px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: white;
+}
+
+.delete-btn:hover
+{
+    color: black;
+    transform: scale(1.2);
+    font-size: bolder;
+    
+    background-color: white;
+}
